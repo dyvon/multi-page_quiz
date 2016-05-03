@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="page-header">
+        <h1>Multi-Page Quiz</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Page 1</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>The instructions that tell the computer what to do and how to do it.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <select class="form-control" id="select_answer" onchange="myFunction()">
+                    <option value="" selected disabled>Select Your Answer</option>
+                    <option value="1" id="answer_1">Hardware</option>
+                    <option value="2" id="answer_2">Software</option>
+                    <option value="3" id="answer_3">Mouse</option>
+                </select>
+                <p id="confirm_text"></p>
+            </div>
+        </div>
+    </div>
+<script src="js/js.js"></script>
+</body>
+</html>
